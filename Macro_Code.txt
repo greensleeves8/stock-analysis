@@ -499,3 +499,23 @@ Next i
     MsgBox "This code ran in " & (endTime - startTime) & "seconds for the year " & (yearValue)
     
 End Sub
+
+
+tickerIndex = 0
+
+Dim tickerVolumes(12) As Long
+Dim tickerStartingPrices(12) As Single
+Dim tickerEndingPrices(12) As Single
+
+for tickerIndex = 0 To 11
+
+tickerVolume(tickerIndex) = 0
+ 
+	For i = 2 To Rowcount
+		If Cells(i, 1).Value = tickers(tickerIndex) Then
+			tickerVolume(tickerIndex) = tickerVolume(tickerIndex) + Cells(i, 8).Value
+		End If
+
+			If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1) <> tickers(tickerIndex) Then
+				tickerStartingPrice(tickerIndex) = Cells(i, 6).Value
+			End If
