@@ -29,22 +29,31 @@ While nearly all of the stocks in our analysis produced positive returns in 2017
 producing returns of over 100%, only two stocks, RUN and ENPH, produced positive returns in 2018. ENPH was 
 clearly the best performing stock over the two year sample which we analyzed. ENPH seems like it would be 
 the best single stock to invest in, though it seems like a better approach would be a more diversified 
-approach given the volatility in green energy field over the sample we analyzed. 
+approach given the volatility in the green energy field over the sample we analyzed. 
 
 ### Analysis of the Original and Refactored Code
+
+Both the original script and the refactored code yielded the same output for the stock returns in both 2017
+and 2018. The refactored code ran the analysis, though, roughly a half second faster per run. The refactored
+code seems promising with regards to being able to handle much larger samples of stocks for analysis.  
+
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Original_Code.png
+
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Original_Code.png
 
 https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png
 
 https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png
 
-
-
-
-
-
-
-
-
 ## Summary
 
-Enter text here
+One of the advantages of refactoring code is that we can perserve the functionality of the original code, 
+while being able make improvements in the design, overall efficiency, and scalability. With this particular
+refactored code, we've improved its ability to run larger samples of stock with increased efficiency, which
+will allow us to apply it to potentially thousands of stocks at a time. The disadvantages of refactoring 
+code is that, if done poorly, we may alter the functionality of the original code, and there's also the risk
+of introducing bugs to the code that may be difficult to catch. In the case of this VBA script, we were able
+to introduce code that changed the functionality of the original code, altering code that was specific to 
+this particular dataset, to code that works in a more general function. This allows us to use it for larger
+sets of data across larger timespans, and to also introduce new data as it becomes present. 
+
