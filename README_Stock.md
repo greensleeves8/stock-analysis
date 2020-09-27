@@ -1,4 +1,4 @@
-# **Stock Analysis With VBA**
+# Stock Analysis With VBA
 
 ## Overview of Project
 
@@ -19,9 +19,9 @@ examined their 2018 performance. Finally, we adapted our code to analyze any yea
 were given, added conditional and static formatting to improve the apprearance and readibility of our data, 
 and added a run button for an additional user friendly option.
 
-![2017 Stock Performance](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Stock_Performance.png "2017 Stock Performance")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Stock_Performance.png
 
-![2018 Stock Performance](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Stock_Performance.png "2018 Stock Performance")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Stock_Performance.png
 
 ### Analysis of Green Stocks
 
@@ -37,13 +37,13 @@ Both the original script and the refactored code yielded the same output for the
 and 2018. The refactored code ran the analysis, though, roughly a half second faster per run. The refactored
 code seems promising with regards to being able to handle much larger samples of stocks for analysis.  
 
-![2017 Original Code](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Original_Code.png "2017 Original Code")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Original_Code.png
 
-![2018 Original Code](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Original_Code.png "2018 Original Code")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Original_Code.png
 
-![VBA Challenge 2017](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png "VBA Challenge 2017")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png
 
-![VBA Challenge 2018](https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png "VBA Challenge 2018")
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png
 
 ## Summary
 
