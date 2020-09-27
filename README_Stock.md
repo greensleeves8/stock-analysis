@@ -19,9 +19,9 @@ examined their 2018 performance. Finally, we adapted our code to analyze any yea
 were given, added conditional and static formatting to improve the apprearance and readibility of our data, 
 and added a run button for an additional user friendly option.
 
-https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2017_Stock_Performance.png
 
-https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/2018_Stock_Performance.png
 
 ### Analysis of Green Stocks
 
@@ -33,9 +33,9 @@ approach given the volatility in green energy field over the sample we analyzed.
 
 ### Analysis of the Original and Refactored Code
 
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png
 
-
-
+https://github.com/greensleeves8/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png
 
 
 
